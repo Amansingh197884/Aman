@@ -1,14 +1,13 @@
+import { useState } from "react"; 
 import Logo from "../Assets/Logo.svg";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
-import './Navbar.css'
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
-
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
